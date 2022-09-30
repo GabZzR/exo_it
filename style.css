@@ -20,21 +20,106 @@ body{
 }
 .nameText{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .imageAndAboutMe{
     display: flex;
+    flex-direction: column;
     background-color: rgba(255, 255, 255, 0.2);
     border-style: solid;
     border-width: 2px;
     border-radius: 5px;
 }
+.imgHere{
+    align-self: center;
+}
 .contactList{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 150px;
     margin: 20px;
 }
 .exTitle{
+    display: flex;
+    justify-content: center;
+    background-color: #2C8598;
+    border-radius: 25px;
+    width: 138px;
+    margin: 15px 0 15px 15px;
+    padding: 1px;
+}
+h1{
+    font-size: 36px;
+    margin: 0;
+}
+h2{
+    color: white;
+    font-size: 16px;
+    margin: 15px;
+}
+h3{
+    margin: 15px;
+}
+h4{
+    color: #2C8598;
+    margin: 15px;
+}
+p{
+    margin: 15px;
+}
+.text{
+    font-weight: 100;
+    color: #847D7D;
+}
+.hobImg{
+    display: flex;
+    justify-content: space-around;
+}
+.hobText{
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    margin: 15px;
+}
+.tire{
+    display: flex;
+    align-items: center;
+}
+.trait{
+    border: solid #2C8598 2px;
+    width: 60%;
+    height: 0;
+}
+.aPhoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hob{
+    display: flex;
+    justify-content: space-around;
+}
+.hobCqfd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skillDotRange{
+    display: flex;
+}
+.skillDot{
+    border: solid white 10px;
+    border-radius: 50%;
+    background-color: white;
+}
+.skillNot{
+    border: solid #2C8598 10px;
+    border-radius: 50%;
     background-color: #2C8598;
 }
